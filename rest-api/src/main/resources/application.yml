@@ -1,0 +1,16 @@
+---
+spring:
+  profiles:
+    active: local
+  datasource:
+    driver-class-name: org.postgresql.Driver
+
+
+
+logging:
+  level:
+    org.springframework.web.servlet: INFO
+
+app:
+  appName: "spring-kotlin-graphql"
+---

@@ -62,6 +62,14 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-jdbc")
     compile("org.springframework.boot:spring-boot-devtools")
 
+    // graphql
+    // https://mvnrepository.com/artifact/com.graphql-java/graphiql-spring-boot-starter
+    compile group: 'com.graphql-java', name: 'graphiql-spring-boot-starter', version: '3.10.0'
+// https://mvnrepository.com/artifact/com.graphql-java/graphql-spring-boot-starter
+    compile group: 'com.graphql-java', name: 'graphql-spring-boot-starter', version: '3.10.0'
+// https://mvnrepository.com/artifact/com.graphql-java/graphql-java-tools
+    compile group: 'com.graphql-java', name: 'graphql-java-tools', version: '4.3.0'
+
 
     // jackson json
     compile "com.fasterxml.jackson.module:jackson-modules-java8:$jacksonVersion"
@@ -83,6 +91,8 @@ dependencies {
     // exposed
     compile "org.jetbrains.exposed:exposed:$exposedVersion"
     compile "org.jetbrains.exposed:spring-transaction:$exposedVersion"
+
+
 
 }
 
