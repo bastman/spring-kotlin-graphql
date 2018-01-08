@@ -1,4 +1,4 @@
-package com.example.api.familytree
+package com.example.graphql.familytree
 
 data class Relationship(
         val from: String,

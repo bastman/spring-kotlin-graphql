@@ -1,4 +1,4 @@
-package com.example.api.familytree
+package com.example.graphql.familytree
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver
 import org.springframework.stereotype.Component

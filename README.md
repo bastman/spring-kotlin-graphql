@@ -68,4 +68,15 @@ playground spring-boot, kotlin, graphql
     }
 ```
 
-
+```
+   # mutations: create person and return fields:[id,name,relationships]
+   mutation {
+      createPerson(name:"Princess Anne") {
+        id
+        name
+        relationships {
+          relationship
+        }
+      }
+    }
+```
