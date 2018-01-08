@@ -13,4 +13,11 @@
 ### custom
 **/version.txt
 
+## graphql (IDEA plugin)
+
+rest-api/graphql.config.json
+rest-api/graphql.schema.json
+
+
+
 
