@@ -21,11 +21,13 @@ playground spring-boot, kotlin, graphql
 ```
 
 ```
-# getPersonById(id="qeii", fields:[name])
+# getPersonById(id="qeii", fields:[name,id,createdAt])
 
 {
   getPersonById(id: "qeii") {
-    name
+        name
+        id
+        createdAt
   }
 }
 
