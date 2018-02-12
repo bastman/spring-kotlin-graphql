@@ -5,6 +5,10 @@ playground spring-boot, kotlin, graphql
 - https://blog.pusher.com/writing-graphql-service-using-kotlin-spring-boot/
 - https://github.com/sazzer/pusher-familytree
 
+## build & run
+
+    $ ./gradlew bootRun
+    
 ## browse
 
 - http://localhost:8080/graphiql
